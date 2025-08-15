@@ -15,15 +15,11 @@
         "groups": [
           {
             "group": "Architecture Decision Records",
-            "pages": [
-              "decisions/adr/0001-example.adr"
-            ]
+            "pages": ["decisions/adr/0001-example.adr"]
           },
           {
             "group": "Request for Comments",
-            "pages": [
-              "decisions/rfc/0001-example.rfc"
-            ]
+            "pages": ["decisions/rfc/0001-example.rfc"]
           }
         ]
       },
@@ -32,10 +28,7 @@
         "groups": [
           {
             "group": "Documentation Guides",
-            "pages": [
-              "guides/example1.guide",
-              "guides/guide1/example2.guide"
-            ]
+            "pages": ["guides/example1.guide", "guides/guide1/example2.guide"]
           }
         ]
       },
@@ -44,10 +37,7 @@
         "groups": [
           {
             "group": "Documentation Rules",
-            "pages": [
-              "rules/example1.rules",
-              "rules/subdirectory/example2.rules"
-            ]
+            "pages": ["rules/example1.rules", "rules/subdirectory/example2.rules"]
           }
         ]
       },
@@ -83,25 +73,7 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "global": {}
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -121,16 +93,7 @@
     }
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
   },
   "footer": {
     "socials": {

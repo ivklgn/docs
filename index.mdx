@@ -1,97 +1,39 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+name: intro
+title: Introduction
+sidebar_position: 0
 ---
 
-## Setting up
+### Decisions
 
-Get your documentation site up and running in minutes.
+#### RFC (Request for Comments)
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+Used to propose and evaluate technical change options. RFCs may explore multiple solutions and reference other RFCs, ADRs, guides, or rules. Store in docs/decisions/rfc/. Even rejected RFCs are useful to keep.
 
-## Make it yours
+[RFC template](https://github.com/tensorflow/community/blob/master/rfcs/yyyymmdd-rfc-template.md)
 
-Design a docs site that looks great and empowers your users.
+⸻
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+#### ADR (Architectural Decision Record)
 
-## Create beautiful pages
+Captures key architectural decisions and their rationale. May result from an RFC or be created independently. Store in docs/decisions/adr/. Keep both accepted and rejected ADRs.
 
-Everything you need to create world-class documentation.
+[ADR template](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md)
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+⸻
 
-## Need inspiration?
+## Rules
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+State project-wide or local conventions, often based on RFC/ADR outcomes. Can also exist independently. Store in docs/rules/.
+
+⸻
+
+## Guides
+
+Instructional docs for building or using software, aimed at developers. Focus on clarity for code generation and validation. Store in docs/guides/.
+
+⸻
+
+## Projects
+
+Contain their own local RFCs, ADRs, guides, and rules. Store in docs/projects/ with the same structure as global docs.
