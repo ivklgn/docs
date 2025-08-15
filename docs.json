@@ -11,58 +11,73 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Decisions",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Architecture Decision Records",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "decisions/adr/0001-example.adr"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Request for Comments",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "decisions/rfc/0001-example.rfc"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Guides",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Documentation Guides",
             "pages": [
-              "api-reference/introduction"
+              "guides/example1.guide",
+              "guides/guide1/example2.guide"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Rules",
+        "groups": [
+          {
+            "group": "Documentation Rules",
+            "pages": [
+              "rules/example1.rules",
+              "rules/subdirectory/example2.rules"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Projects",
+        "groups": [
+          {
+            "group": "Project 1",
+            "pages": [
+              "projects/project1/project",
+              "projects/project1/guides/architecture",
+              "projects/project1/guides/project-stack",
+              "projects/project1/guides/guide1/example.guide",
+              "projects/project1/decisions/adr/0001-example.adr",
+              "projects/project1/decisions/rfc/0001-example.rfc",
+              "projects/project1/rules/example.rules",
+              "projects/project1/rules/subdirectory/example.rules"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Project 2",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "projects/subdirectory/project2/project",
+              "projects/subdirectory/project2/guides/architecture",
+              "projects/subdirectory/project2/guides/project-stack",
+              "projects/subdirectory/project2/guides/guide1/example.guide",
+              "projects/subdirectory/project2/decisions/adr/0001-example.adr",
+              "projects/subdirectory/project2/decisions/rfc/0001-example.rfc",
+              "projects/subdirectory/project2/rules/example1.rules",
+              "projects/subdirectory/project2/rules/subdirectory/example2.rules"
             ]
           }
         ]
